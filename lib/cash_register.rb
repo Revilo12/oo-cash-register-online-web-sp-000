@@ -29,6 +29,7 @@ class CashRegister
   def discount_to_percent #returns the amount to multiply the total by
     inverse = 100 - @discount
     inverse/100
+    binding.pry
   end
 
 end
