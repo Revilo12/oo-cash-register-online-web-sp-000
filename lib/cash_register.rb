@@ -28,5 +28,5 @@ class CashRegister
     inverse = 100 - @discount
     inverse/100
   end
-    
+
 end
